@@ -7,9 +7,9 @@ class CTriangle{
     }
 }
 class CData extends CTriangle{
-    CData(int x,int y){
-        base=x;
-        height=y;
+    CData(int jinjin1,int jinjin2){
+        base=jinjin1;
+        height=jinjin2;
     }
     public double area(){
         return base*height/2;
